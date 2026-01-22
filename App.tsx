@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { UploadedImage, LoadingState, SavedProblem } from './types';
-import ImageUploader from './components/ImageUploader';
-import SolutionViewer from './components/SolutionViewer';
-import ProblemLibrary from './components/ProblemLibrary';
+import ImageUploader from './components/ImageUploader.tsx';
+import SolutionViewer from './components/SolutionViewer.tsx';
+import ProblemLibrary from './components/ProblemLibrary.tsx';
 import { solveProblem, verifyProblem, generateDrills, generateSpeech, decodeBase64, decodePcmAudio } from './services/geminiService';
 import { BookOpen, Sparkles, CheckCircle, GraduationCap, Zap, Loader2, RotateCcw, X, Download, Printer, ArrowRight, MonitorPlay } from 'lucide-react';
 
